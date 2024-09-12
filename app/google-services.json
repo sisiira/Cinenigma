@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "768247228249",
+    "project_id": "cinenigma-71d7e",
+    "storage_bucket": "cinenigma-71d7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768247228249:android:42856cdb5e7806afd34e48",
+        "android_client_info": {
+          "package_name": "com.example.cinenigma"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzWxIuNV0Sc-KEcETU4rGDqDAPTFn70O8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

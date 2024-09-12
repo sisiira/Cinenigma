@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/titreFilm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Titre du film"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/dateProjection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date de projection"
+            android:inputType="datetime"/>
+
+        <EditText
+            android:id="@+id/heureProjection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Heure de projection"
+            android:inputType="time"/>
+
+        <EditText
+            android:id="@+id/noteScenario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Note Scénario"
+            android:inputType="numberDecimal"/>
+
+        <EditText
+            android:id="@+id/noteRealisation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Note Réalisation"
+            android:inputType="numberDecimal"/>
+
+        <EditText
+            android:id="@+id/noteMusique"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Note Musique"
+            android:inputType="numberDecimal"/>
+
+        <EditText
+            android:id="@+id/critique"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Critique"
+            android:inputType="textMultiLine"/>
+
+
+        <Button
+            android:id="@+id/btnEnregistrer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enregistrer"/>
+
+        <Button
+            android:id="@+id/btnEnvoyerEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Envoyer par Email"/>
+
+        <!-- Bouton Voir les Données -->
+        <Button
+            android:id="@+id/btnVoirDonnees"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voir les Données"
+            android:layout_marginTop="16dp"/>
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
